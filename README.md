@@ -3,23 +3,20 @@ Facing the setup of a new machine (or the need to reinstall after a fresh OS ins
 
 ## Homebrew & Cask
 The package manager is the default first thing I always install. Simply following the default steps. Homebrew downloads and installs the Command Line Tools for Xcode, so we're all good. Homebrew Cask is implemented as part of Homebrew now, so we're cask-enabled and ready from the start for our tapping. Finally, `brew-cask-upgrade` provides upgrade-like capabilities to cask, and we're all set.
-```bash
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew tap buo/cask-upgrade
-```
+
 ## Mac App Store
 If some previously purchased software from the Mac App Store needs to be included, we can use `mas` to ease the installs.
 
-```bash
 brew install mas
-```
 
 ## My curated list of apps (and all that jazz)
 Once we have `homebrew`, `cask` (and `mas` if needed) we're ready to go (and yes, these lists might be scripted for some automation to install all, take this as just a curated set):
 
 ### Productivity
 
-```bash
 # Slack
 brew install slack
 
@@ -34,13 +31,8 @@ brew install typora
 # Amphetamine
 mas install 937984704
 
-```
-### Browsers
-
-```bash
 # Browsers
 brew install microsoft-edge
-```
 
 ### Common apps
 
@@ -86,33 +78,11 @@ brew install charles
 # Cloud storage and related
 brew install cyberduck
 brew install mountain-duck
+brew install duck
 
-# JetBrains
-brew install phpstorm
-brew install pycharm
-brew install rubymine
-brew install intellij-idea
-
-# PHP & related
-brew install composer
-
-# Databases
-brew install sequel-pro
 
 # VPN
 brew install tunnelblick
 
 # Xcode. Will take forever to download, yes. Not needed by everyone.
 mas install 497799835
-```
-
-## Google Chrome stuff
-
-Some useful pointers if we have not added those to the Google account yet
-
-- https://chrome.google.com/webstore/detail/authy/gaedmjdfmmahhbjefcbgaolhhanlaolb
-- https://chrome.google.com/webstore/detail/browserstack-local/mfiddfehmfdojjfdpfngagldgaaafcfo
-- https://chrome.google.com/webstore/detail/json-editor/lhkmoheomjbkfloacpgllgjcamhihfaj
-- https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki
-- https://chrome.google.com/webstore/detail/google-hangouts/knipolnnllmklapflnccelgolnpehhpl
-- https://chrome.google.com/webstore/detail/google-meet-grid-view/kklailfgofogmmdlhgmjgenehkjoioip
