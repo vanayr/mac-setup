@@ -20,17 +20,8 @@ Once we have `homebrew`, `cask` (and `mas` if needed) we're ready to go (and yes
 ### Productivity
 
 ```bash
-# Efficiency booster
-brew install alfred
-
-# CloudApp
-mas install 417602904
-
 # Slack
 brew install slack
-
-# Miro
-brew install miro
 
 # Notes & related
 mas install 1091189122 #Bear
@@ -43,93 +34,41 @@ brew install typora
 # Amphetamine
 mas install 937984704
 
-# Bartender
-brew install bartender
-
-# Magnet
-mas install 441258766
 ```
 ### Browsers
 
 ```bash
 # Browsers
-brew install google-chrome
-brew install brave-browser
-brew install firefox
+brew install microsoft-edge
 ```
 
 ### Common apps
 
-```bash
-
 # Authy
 brew install authy
 
-# Calibre
-brew install calibre
-
 # Personal cloud storage
-brew install amazon-photos
 brew install dropbox
-
-# Gimp
-brew install gimp
-
-# Some of the Google stuff
-brew install google-photos-backup-and-sync
-brew install google-earth
-
-# Kindle
-brew install kindle
 
 # MS
 brew install microsoft-office
-
-# Spotify
-brew install spotify
-
-# Shazam
-mas install 897118787
-
-# Twitter
-mas install 409789998
-
-# The Unarchiver
-brew install the-unarchiver
 
 # VLC
 brew install vlc
 
 # Videoconference
-brew install skype
-brew install skype-for-business
 brew install microsoft-teams
 brew install zoom
 
 # Messaging
-brew install telegram
-brew install whatsapp
-```
+brew install signal
 
 ### Development
 
-```bash
 # A good terminal
 brew install iterm2
-brew install jq
-brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
-# And definitely check plugins, templates, themes, etc. at:
-# https://github.com/robbyrussell/oh-my-zsh
 brew install tree
 brew install wget
-brew install tldr
-brew install thefuck
-
-# Go2Shell
-brew install go2shell
-
-# Shuttle
-brew install shuttle 
 
 # AWS CLI
 brew install awscli
@@ -139,56 +78,14 @@ brew install paw
 brew install postman
 
 # Text editors/IDEs
-brew install textmate
 brew install sublime-text
-brew install brackets
-brew install atom
-brew install visual-studio-code
 
 # Charles proxy
 brew install charles
 
-# Dash
-brew install dash
-
-# Docker
-brew install docker
-brew install kitematic
-
-# ES
-brew install elasticsearch
-
-# Gas Mask
-brew install gas-mask
-
-# Git-related
-brew install rowanj-gitx
-brew install sourcetree
-brew install tower
-
-# Gradle
-brew install gradle
-
-# GoLang
-brew install go
-
-# Ngrok
-brew install ngrok
-
-# Python
-brew install python
-brew install python3
-brew install anaconda
-
-# DevOps
-brew install vagrant
-brew install virtualbox
-brew install packer
-brew install terraform
-brew install vault
-
 # Cloud storage and related
 brew install cyberduck
+brew install mountain-duck
 
 # JetBrains
 brew install phpstorm
